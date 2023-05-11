@@ -78,7 +78,6 @@ from setuptools import find_packages, setup
 # 2. once modified, run: `make deps_table_update` to update src/diffusers/dependency_versions_table.py
 _deps = [
     "Pillow",
-    "torch",
     "numpy",
     "filelock",
     "importlib_metadata",
@@ -88,7 +87,6 @@ _deps = [
     "huggingface_hub",
     "einops",
     "timm",
-    "torchvision",
     "scikit-image"
 ]
 
