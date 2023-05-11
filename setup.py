@@ -163,7 +163,6 @@ class DepsTableUpdateCommand(Command):
 extras = {}
 
 install_requires = [
-    deps["torch"],
     deps["importlib_metadata"],
     deps["huggingface_hub"],
     deps["scipy"],
@@ -172,7 +171,6 @@ install_requires = [
     deps["numpy"],
     deps["Pillow"],
     deps["einops"],
-    deps["torchvision"],
     deps["timm"],
     deps["scikit-image"],
 ]
